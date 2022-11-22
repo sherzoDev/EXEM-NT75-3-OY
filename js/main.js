@@ -2,16 +2,7 @@ let $form = document.querySelector(".form");
 // let $input = document.querySelector(".form");
 let $list = document.querySelector(".list");
 
-let newArr = [{
-    id: 1,
-    name: 'Sherzod',
-    phone: "+998901111111",
-    email: "eshmat@gmail.com",
-    thickness: "Medium",
-    size: "25sm",
-    pizza: "Tomato, Pickled",
-    add: "Peper",
-}]
+let newArr = []
 
 $form.addEventListener('submit', (evt) => {
     evt.preventDefault();
